@@ -1,18 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.innovandoapps.reidyn.awesomebutton.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStyleAcapulco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_acapulco" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStyleArsenic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_asernic" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStyleBeige"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_beige" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStyleBlackpearl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_black_pearl" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStyleBreakerBay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_breaker_bay" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStyledark_khaki"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_dark_khaki" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStyleGenoa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_geona" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStyleHaiti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_haiti" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStylelemon_chiffon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_lemon_chiffon" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStylelivid_brown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_livid_brown" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStylemedium_wood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_medium_wood" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStyleopal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_opal" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStyleOrange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_orange" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStylepale_brown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_pale_brown" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStylePaprika"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_paprika" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStyleSandrift"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_sandrift" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStyleSeagull"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_seagull" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStylesorbus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_sorbus" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnStyleWhiskey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_whiskey" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/btnParking_red_brown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/txt_btn_parking" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

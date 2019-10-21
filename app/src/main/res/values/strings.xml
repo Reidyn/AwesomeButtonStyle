@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">AwesomeButton</string>
+    <string name="txt_acapulco">ACAPULCO</string>
+    <string name="txt_asernic">ASERNIC</string>
+    <string name="txt_beige">BEIGE</string>
+    <string name="txt_black_pearl">BLAC PEARL</string>
+    <string name="txt_breaker_bay">BREAKER BAY</string>
+    <string name="txt_dark_khaki">DARK KHKI</string>
+    <string name="txt_geona">GENOA</string>
+    <string name="txt_haiti">HAITI</string>
+    <string name="txt_lemon_chiffon">LEMON CHIFFON</string>
+    <string name="txt_livid_brown">LIVID BROWN</string>
+    <string name="txt_medium_wood">MEDIUM WOOD</string>
+    <string name="txt_opal">OPAL</string>
+    <string name="txt_orange">ORANGE</string>
+    <string name="txt_pale_brown">PALE BROWN</string>
+    <string name="txt_paprika">PAPRIKA</string>
+    <string name="txt_sandrift">SANDRIFT</string>
+    <string name="txt_seagull">SEAGULL</string>
+    <string name="txt_shakespeare">SHAKEPEARES</string>
+    <string name="txt_sorbus">SORBUS</string>
+    <string name="txt_whiskey">WHISKEY</string>
+    <string name="txt_btn_parking">PARKING RED</string>
 </resources>
