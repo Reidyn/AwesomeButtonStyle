@@ -4,11 +4,11 @@ Estilos personalizado para button
 
 ```xml
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+   repositories {
+	...
+	maven { url 'https://jitpack.io' }
+   }
+}
 
 dependencies {
    implementation 'com.github.Reidyn:AwesomeButtonStyle:1.0'
